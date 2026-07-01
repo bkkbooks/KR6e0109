@@ -1,0 +1,48 @@
+canonical_identifier: bkk:krp/KR6e0109/v1
+canonical_location: https://kanripo.org/bkk/KR6e0109/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 華嚴一乘法界圖
+  identifiers:
+    alt_id:
+    - T45n1887A
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T45/T45n1887A.xml
+    old_id: T45n1887A
+  edition:
+    short: bkk
+editions:
+- short: 原
+  label: 原
+  source_xml_id: wit2
+- short: 甲
+  label: 甲
+  source_xml_id: wit1
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6e0109_000.yaml, hash: 'sha256:9fa4288bad86ce23c210fa02d7238ede27d2c48b2ddc77871319a76c13022a2b'}
+  - {seq: 1, filename: KR6e0109_001.yaml, hash: 'sha256:47f262eef2448fdab065471a602e4a1987a4ed3b8a59281274f6eb7524bd07a7'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6e0109_001.markers.yaml, hash: 'sha256:d58904f5a4d487830943603aa9525777c969af85a58614d63fa8b5506b60eb05'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6e0109_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 7219
+  label: 華嚴一乘法界圖
+  type: juan
+  level: 1
+hash: sha256:5c03afb01cc9db02d4196858d8b23f36e2a2f0e1bd8b5350e385b8dc461a95fe
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

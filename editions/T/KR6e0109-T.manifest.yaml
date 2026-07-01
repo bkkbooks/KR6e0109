@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6e0109/T/v1
+canonical_location: https://kanripo.org/bkk/KR6e0109/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 華嚴一乘法界圖
+  identifiers:
+    krp: KR6e0109
+    cbeta: T45n1887A
+    cbeta_old_id: T45n1887A
+    authorityid: CA0001453
+    json_key: T1887A
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T45/T45n1887A.xml
+    old_id: T45n1887A
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6e0109_000-T.yaml, hash: 'sha256:9fa4288bad86ce23c210fa02d7238ede27d2c48b2ddc77871319a76c13022a2b'}
+  - {seq: 1, filename: KR6e0109_001-T.yaml, hash: 'sha256:0357ce961df465301fc841c6c8254ce3ef9b68e29bb15bc3492a841f63409fd8'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6e0109_000-T.markers.yaml, hash: 'sha256:6039bc8bed0d636521897603ed6ac27bc9f385b012844b395235ef625e883099'}
+  - {seq: 1, role: markers, filename: assets/KR6e0109_001-T.markers.yaml, hash: 'sha256:f977972df71f92ef763aefa74db4dc164d89dcfb1d55c96813e32f5c6e5f9d85'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6e0109_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 7219
+  label: 華嚴一乘法界圖
+  type: juan
+  level: 1
+hash: sha256:b0ef4ce0a82942536f967d3d467b0608666735264e6dbda1392dc6cc32cdac53

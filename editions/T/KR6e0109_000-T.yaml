@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6e0109/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 華嚴一乘法界圖
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T45/T45n1887A.xml
+    old_id: T45n1887A
+hash: sha256:9fa4288bad86ce23c210fa02d7238ede27d2c48b2ddc77871319a76c13022a2b
