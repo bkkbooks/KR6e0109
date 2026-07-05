@@ -28,9 +28,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6e0109_000.yaml, hash: 'sha256:9fa4288bad86ce23c210fa02d7238ede27d2c48b2ddc77871319a76c13022a2b'}
-  - {seq: 1, filename: KR6e0109_001.yaml, hash: 'sha256:47f262eef2448fdab065471a602e4a1987a4ed3b8a59281274f6eb7524bd07a7'}
+  - {seq: 1, filename: KR6e0109_001.yaml, hash: 'sha256:0357ce961df465301fc841c6c8254ce3ef9b68e29bb15bc3492a841f63409fd8'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6e0109_001.markers.yaml, hash: 'sha256:d58904f5a4d487830943603aa9525777c969af85a58614d63fa8b5506b60eb05'}
+  - {seq: 0, role: markers, filename: assets/KR6e0109_000.markers.yaml, hash: 'sha256:41e9b67d8a0febd7d8c37d97a18bafafdc2a5b5657f68f4a45e8e5261c38344f'}
+  - {seq: 1, role: markers, filename: assets/KR6e0109_001.markers.yaml, hash: 'sha256:bcb427e4d4b78e48e6ed9284c2675feac6da1a559b032cac6da000fb5d320692'}
 table_of_contents:
 - ref:
     seq: 1
@@ -42,7 +43,4 @@ table_of_contents:
   label: 華嚴一乘法界圖
   type: juan
   level: 1
-hash: sha256:5c03afb01cc9db02d4196858d8b23f36e2a2f0e1bd8b5350e385b8dc461a95fe
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:4bf7bd0a24dd67b850b0c7a87903c603e071a6cc75bdeca505c353b19b261136
